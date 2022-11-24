@@ -1,0 +1,49 @@
+body{
+    background-color:  rgb(40, 4, 4);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #009578;
+}
+
+#text-principal{
+    color: coral;
+    text-align: center;
+    font-size: 8vh;
+    padding: 10vh 0 10vh 0;
+}
+#text-principal:hover{
+    box-shadow: 10px 10px;
+    cursor: cell;
+}
+img{
+    width: 70%;
+}
+
+div > #label{
+    color: coral;
+    font-size: 3vh;
+   
+   
+}
+div > #BB{
+    background-color: rgb(15, 10, 10);
+    padding: 4px;
+    border-radius: 20px;
+    
+    
+}
+#BB , #option{
+    color: aliceblue;
+}
